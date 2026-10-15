@@ -1,1 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset: keep only documentation and placeholder
+data/**
+!data/.gitkeep
+!data/README.md
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.safetensors
+
+# Secrets
+.env
+.env.*
+*.key
+*token*
+
+# Temporary files
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
