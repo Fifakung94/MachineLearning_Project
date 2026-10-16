@@ -32,3 +32,23 @@ data/**
 # OS
 .DS_Store
 Thumbs.db
+
+# Extracted features and large numerical arrays
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Local datasets and archives
+datasets/
+*.rar
+*.zip
+*.7z
+
+# Local experiment artifacts
+runs/
+wandb/
+lightning_logs/
+
+# Local configuration
+.env.local
