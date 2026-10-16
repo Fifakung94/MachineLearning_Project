@@ -93,6 +93,38 @@ The final submission will include a reproducible notebook, dependency informatio
 
 ## 9. Project Status
 
-**Current stage:** Repository preparation
+**Current Stage: Phase 2 — Feature Extraction**
+
+### Completed
+- Repository structure and initial setup.
+- Google Colab environment and Google Drive integration.
+- Dataset loading and validation of the predefined splits.
+- Image integrity verification of all 75,000 images.
+- Exploratory Data Analysis (EDA), including:
+  - Label distribution.
+  - Class imbalance analysis.
+  - Labels per image.
+  - Label co-occurrence.
+- Upload of the Phase 1 notebook to GitHub.
+
+### In Progress
+- Feature extraction using handcrafted and pretrained CNN features.
+
+### Upcoming
+- Baseline models and multi-label classification experiments.
+- CNN development and hyperparameter tuning.
+- Model evaluation and error analysis.
+- Final report, test predictions, thresholds, and live demonstration.
+
+## 10. Quick Start (Google Colab)
+
+1. Open `notebooks/ML_Project.ipynb` in Google Colab.
+2. Connect Google Drive containing the provided NUS-WIDE dataset archive and CSV files.
+3. Check the dataset paths in the setup cells.
+4. Run the environment setup and dataset preparation cells.
+5. Verify that all 75,000 images are available and readable.
+6. Run the notebook sections required for the intended experiment.
+
+**Note:** The image dataset and large model checkpoints are not stored in this repository. The dataset must be obtained separately, and the local Google Drive paths must be configured before running the notebook.
 
 Model training, evaluation results, and the interactive prediction demonstration will be added as development progresses.
