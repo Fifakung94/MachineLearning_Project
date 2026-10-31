@@ -1,11 +1,18 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-Pillow
-torch
-torchvision
-tqdm
-joblib
-scikit-image
+# Automatic Image Tagging - Python dependencies
+# Tested in Google Colab with Python 3.13.16
+# GPU runtime: NVIDIA Tesla T4
+# Tested torch: 2.11.0+cu130
+# Tested torchvision: 0.26.0+cu130
+# Select matching torch/torchvision builds for your platform.
+
+numpy>=2.1,<3
+pandas>=2.2,<3
+scikit-learn>=1.6,<2
+scikit-image>=0.25,<1
+scipy>=1.16,<2
+Pillow>=11,<13
+matplotlib>=3.10,<4
+joblib>=1.6,<2
+tqdm>=4.67,<5
+torch>=2.11,<3
+torchvision>=0.26,<1
